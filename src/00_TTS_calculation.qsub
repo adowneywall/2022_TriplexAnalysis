@@ -1,0 +1,120 @@
+#!/bin/bash
+#$ -cwd
+#$ -t 1-4
+#$ -j y
+#$ -P wax-dk
+#$ -o log.txt
+#$ -N "TDF_TTScount"
+#$ -pe omp 2
+#$ -l mem_total=30G
+#$ -l h_rt=72:00:00
+# -l scratch_free=200G
+
+echo "=========================================================="
+echo "Starting on       : $(date)"
+echo "Running on node   : $(hostname)"
+echo "Current job ID    : $JOB_ID"
+echo "Current job name  : $JOB_NAME"
+echo "Task index number : $TASK_ID"
+echo "=========================================================="
+
+source ~/.bashrc
+module load python3/3.8.10
+module load bedtools
+
+#### USER INFORMATION ####
+# Step 1: Make sure to update directory and input paths
+# Step 2: Make sure the qsub -t argument (above) is the same length as the total number of lncRNAs you plans to evaluate
+# Step 3: Make sure to have a genomics regions bed file in your input folder following directions below
+
+## Directory - Change if running script from different directory ##
+DIR="/projectnb/wax-dk/alan/2022_TriplexAnalysis"
+
+## Input/Output folder -  Change path/folder to reflect where the lncRNA fasta files / gene region bed files are located
+I_PATH="ExampleDir"
+O_PATH="ExampleDir_Default"
+
+## TDF parameters
+# Sets whether the algorithm applies the low complexity filter (DEFAULT=false) 
+# or uses the default settings (DEFAULT=true)
+# The default setting generally finds more redundant TTS and will take longer to execute.
+DEFAULT=true
+
+###########################################################################################################
+########################### Should not need to modifiy below this line ####################################
+###########################################################################################################
+
+### Generate index file and then loop through each lncRNA with qsub array function ###
+if [ ! -f ${DIR}/data/${I_PATH}/fasta/index.txt ]
+then
+    echo "Generating index file .............. $(date)"
+    ls ${DIR}/data/${I_PATH}/fasta/*fasta | xargs -n 1 basename > ${DIR}/data/${I_PATH}/fasta/index.txt
+fi
+
+lncRNA=$( awk -v a=$SGE_TASK_ID 'NR==a{ print $1}' ${DIR}/data/${I_PATH}/fasta/index.txt)
+lncFolder=$(echo ${lncRNA} | rev | cut -c7- | rev)
+
+### Make unique lncRNA folder within output directory ###
+cd ${DIR}
+mkdir -p output/${O_PATH}/00/${lncFolder}
+
+cd output/${O_PATH}/00/${lncFolder}
+
+### Run triplex algorithm ###
+# Note 1 - Remember need the rgt-TDF software package installed - and the associated functions 
+# (e.g. get_TTS) accessible by updating your bashrc file.
+# Note 2 - Make sure you have a bed file that ends with `regions` that contains a list of all 
+# genomic regions being compared by the triplex algorithm
+echo "Starting triplex identification for lncRNA ${lncFolder}..."
+if $DEFAULT
+then
+   # Default settings
+  if [ ! -f ../parameters.txt ]
+  then
+    echo "Input data: ${I_PATH}" > ../parameters.txt
+    echo "Triplex filter (-fr) : off (default)" >> ../parameters.txt
+  fi
+  
+  rgt-TDF get_TTS \
+  -r ${DIR}/data/${I_PATH}/fasta/${lncRNA} \
+  -i ${DIR}/data/${I_PATH}/*regions.bed \
+  -tts ${lncFolder}_TTS.txt \
+  -organism mm10 -rm 16
+else
+   # TTS with low complexity filter on
+  if [ ! -f ../parameters.txt ]
+  then
+    echo "Input data: ${I_PATH}" > ../parameters.txt
+    echo "Triplex filter (-fr) : off (default)" >> ../parameters.txt
+  fi
+  
+  rgt-TDF get_TTS \
+  -r ${DIR}/data/${I_PATH}/fasta/${lncRNA} \
+  -i ${DIR}/data/${I_PATH}/*regions.bed \
+  -tts ${lncFolder}_TTS.txt \
+  -fr on \
+  -organism mm10 -rm 16
+fi
+
+## Run python script that generates bed files from TTS text files created by triplexes
+echo "Generating bed file for lncRNA ${lncFolder}..."
+python3 ${DIR}/src/helpers/00_TTStoBED.py ${DIR}/output/${O_PATH}/00/${lncFolder}
+
+## Use bedtools intersect to identify each genomic region name based
+## on it's coordinates from the original regions.bed file
+echo "Identifying genomic regions from coordinates for lncRNA ${lncFolder}..."
+for a in *bed
+do
+  b=$(echo ${a} | cut -d'/' -f2- | rev | cut -d'.' -f2- | rev)
+  bedtools intersect -a ${DIR}/data/${I_PATH}/*regions.bed -b ${a} -loj > ${b}_intersect.bed
+done
+
+## Remove gene regions with no TTS pairs
+echo "Removing gene regions with no TTS pairs for lncRNA ${lncFolder}..."
+for a in *_intersect.bed
+do
+  b=$(echo ${a} | rev | cut -d'.' -f2- | rev)
+  awk '(NR>1) && ($(NF) > 0 ) ' ${a} > ${b}_red.bed
+done
+
+echo "Finished lncRNA ${lncRNA}.............. $(date)"

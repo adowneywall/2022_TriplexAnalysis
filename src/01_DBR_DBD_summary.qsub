@@ -1,0 +1,41 @@
+#!/bin/bash
+#$ -cwd
+#$ -j y
+#$ -P wax-dk
+#$ -o log.txt
+#$ -N "DBR and DBD Summary"
+#$ -pe omp 2
+#$ -l mem_total=150G
+#$ -l h_rt=72:00:00
+# -l scratch_free=200G
+
+echo "=========================================================="
+echo "Starting on       : $(date)"
+echo "Running on node   : $(hostname)"
+echo "Current job ID    : $JOB_ID"
+echo "Current job name  : $JOB_NAME"
+echo "Task index number : $TASK_ID"
+echo "=========================================================="
+
+source ~/.bashrc
+module load R
+
+## Input/Output folder -  Change path/folder to reflect where the lncRNA fasta files / gene region bed files are located
+PARAM_ROW=1
+
+###########################################################################################################
+########################### Should not need to modifiy below this line ####################################
+###########################################################################################################
+
+cd ../
+WD=$(pwd )
+cd src/R/
+
+echo "Counting DBR and RBR....."
+Rscript 01_DBR_RBR_counting.R ${WD} ${PARAM_ROW}
+
+echo "Counting DBD and RBD....."
+Rscript 02_DBD_RBD_Summary.R ${WD} ${PARAM_ROW}
+
+
+

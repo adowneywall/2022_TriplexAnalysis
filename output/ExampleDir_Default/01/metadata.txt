@@ -1,0 +1,11 @@
+# Number of records: 4
+# Number of records processed: 4
+# Number of records processed: 4
+# Number of lncRNA with no DBR: 0
+# List of lncRNA with no DBR: 
+ 
+#### Parameters #####
+# Minimum Threshold: 2
+# Chromosome ID column: 7
+# Score Threshold (NA = none): NA
+# Error Threshold (NA = none): NA

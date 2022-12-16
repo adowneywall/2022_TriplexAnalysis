@@ -1,0 +1,4 @@
+lnc_inter_chr10_8711.fasta
+lnc_inter_chr10_9000.fasta
+lnc_inter_chr10_9222.fasta
+lnc_inter_chr10_9224.fasta

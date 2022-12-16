@@ -1,0 +1,125 @@
+Lnc_Id	76K_Gene_Id	15K_Gene_Id	Refseq	Class	TCPOBOP_Response	Sex_Bias	Hypoxclass	Response
+lnc_chr1_401	lncRNA_inter_chr1_401	ncRNA_inter_chr1_401	NA	INTERGENIC	UP	I	NA	TCPOBOP
+lnc_chr1_47	lncRNA_inter_chr1_47	ncRNA_inter_chr1_47	NA	INTERGENIC	DOWN	I	NA	TCPOBOP
+lnc_chr1_494	lncRNA_inter_chr1_494	ncRNA_inter_chr1_496	NA	INTERGENIC	UP	I	NA	TCPOBOP
+lnc_chr1_51	lncRNA_inter_chr1_51	ncRNA_inter_chr1_51	NA	INTERGENIC	DOWN	I	NA	TCPOBOP
+lnc_chr1_55	lncRNA_inter_chr1_55	ncRNA_inter_chr1_56,ncRNA_inter_chr1_73	NA	INTERGENIC	DOWN	I	NA	TCPOBOP
+lnc_chr1_673	lncRNA_inter_chr1_673	ncRNA_inter_chr1_678	NA	INTERGENIC	UP	I	NA	TCPOBOP
+lnc_chr1_782	lncRNA_as_chr1_782	ncRNA_as_chr1_782	NA	ANTISENSE	UP	F	NA	BOTH
+lnc_chr1_931	lncRNA_inter_chr1_931	ncRNA_inter_chr1_931	NA	INTERGENIC	UP	I	NA	TCPOBOP
+lnc_chr1_987	lncRNA_inter_chr1_987	ncRNA_inter_chr1_987	NA	INTERGENIC	DOWN	I	NA	TCPOBOP
+lnc_chr10_8460	lncRNA_as_chr10_8460	ncRNA_as_chr10_8460	NA	ANTISENSE	UP	I	NA	TCPOBOP
+lnc_chr10_8696	lncRNA_inter_chr10_8696	ncRNA_inter_chr10_8697	GM20125	INTERGENIC	NA	F	Female Class II	SB
+lnc_chr10_8767	lncRNA_inter_chr10_8767	ncRNA_inter_chr10_8767	NA	INTERGENIC	UP	I	NA	TCPOBOP
+lnc_chr10_8829	lncRNA_inter_chr10_8829	ncRNA_inter_chr10_8829	NA	INTERGENIC	NA	M	Male Class I	SB
+lnc_chr10_8927	lncRNA_as_chr10_8927	ncRNA_as_chr10_8927	NA	ANTISENSE	UP	I	NA	TCPOBOP
+lnc_chr10_8999	lncRNA_inter_chr10_8999	ncRNA_inter_chr10_8999	C730027H18RIK	INTERGENIC	NA	M	Male Class II	SB
+lnc_chr10_9015	lncRNA_as_chr10_9015	ncRNA_as_chr10_9015	NA	ANTISENSE	UP	I	NA	TCPOBOP
+lnc_chr10_9351	lncRNA_inter_chr10_9351	ncRNA_inter_chr10_9351	NA	INTERGENIC	NA	M	Male Class II	SB
+lnc_chr11_9433	lncRNA_inter_chr11_9433	ncRNA_inter_chr11_9433	NA	INTERGENIC	UP	I	NA	TCPOBOP
+lnc_chr11_9709	lncRNA_as_chr11_9709	ncRNA_as_chr11_9709	NA	ANTISENSE	UP	I	NA	TCPOBOP
+lnc_chr11_9924	lncRNA_inter_chr11_9924	ncRNA_inter_chr11_9925	NA	INTERGENIC	NA	M	Male Class II	SB
+lnc_chr12_10621	lncRNA_inter_chr12_10621	ncRNA_inter_chr12_10621	NA	INTERGENIC	UP	I	NA	TCPOBOP
+lnc_chr12_10715	lncRNA_inter_chr12_10715	ncRNA_inter_chr12_10715	NA	INTERGENIC	UP	I	NA	TCPOBOP
+lnc_chr12_10896	lncRNA_as_chr12_10896	ncRNA_as_chr12_10896	NA	ANTISENSE	UP	I	NA	TCPOBOP
+lnc_chr12_10942	lncRNA_inter_chr12_10942	ncRNA_inter_chr12_10942	DIO3OS	INTERGENIC	DOWN	I	NA	TCPOBOP
+lnc_chr13_11031	lncRNA_inter_chr13_11031	ncRNA_inter_chr13_11031	NA	INTERGENIC	DOWN	I	NA	TCPOBOP
+lnc_chr13_11189	lncRNA_inter_chr13_11189	ncRNA_inter_chr13_11189	NA	INTERGENIC	NA	F	Female Class I	SB
+lnc_chr13_11294	lncRNA_inter_chr13_11294	ncRNA_inter_chr13_11294	NA	INTERGENIC	UP	I	NA	TCPOBOP
+lnc_chr13_11385	lncRNA_inter_chr13_11385	ncRNA_inter_chr13_11385	NA	INTERGENIC	DOWN	I	NA	TCPOBOP
+lnc_chr13_11437	lncRNA_inter_chr13_11437	ncRNA_inter_chr13_11437	NA	INTERGENIC	NA	F	Female Class I	SB
+lnc_chr13_11438	lncRNA_inter_chr13_11438	ncRNA_inter_chr13_11438	NA	INTERGENIC	NA	F	Female Class I	SB
+lnc_chr13_11669	lncRNA_inter_chr13_11669	ncRNA_inter_chr13_11669	NA	INTERGENIC	NA	M	Male Class I	SB
+lnc_chr13_11670	lncRNA_inter_chr13_11670	ncRNA_inter_chr13_11670	NA	INTERGENIC	NA	M	Male Class I	SB
+lnc_chr14_12026	lncRNA_inter_chr14_12026	ncRNA_inter_chr14_12026	NA	INTERGENIC	DOWN	I	NA	TCPOBOP
+lnc_chr14_12154	lncRNA_inter_chr14_12154	ncRNA_inter_chr14_12154	NA	INTERGENIC	UP	I	NA	TCPOBOP
+lnc_chr15_12585	lncRNA_inter_chr15_12585	ncRNA_inter_chr15_12585	NA	INTERGENIC	NA	F	Female Class I	SB
+lnc_chr15_12586	lncRNA_inter_chr15_12586	ncRNA_inter_chr15_12586	NA	INTERGENIC	NA	F	Female Class I	SB
+lnc_chr15_12588	lncRNA_inter_chr15_12588	ncRNA_inter_chr15_12588	NA	INTERGENIC	NA	F	Female Class I	SB
+lnc_chr15_12595	lncRNA_inter_chr15_12595	ncRNA_inter_chr15_12595	NA	INTERGENIC	NA	F	Female Class I	SB
+lnc_chr15_12684	lncRNA_inter_chr15_12684	ncRNA_inter_chr15_12684	9030619P08RIK	INTERGENIC	NA	F	Female Class I	SB
+lnc_chr15_12792	lncRNA_inter_chr15_12792	ncRNA_inter_chr15_12792	NA	INTERGENIC	UP	I	NA	TCPOBOP
+lnc_chr15_12817	lncRNA_as_chr15_12817	ncRNA_as_chr15_12817	NA	ANTISENSE	DOWN	M	Male Class I	BOTH
+lnc_chr15_12818	lncRNA_as_chr15_12818	ncRNA_as_chr15_12818	NA	ANTISENSE	NA	M	Male Class I	SB
+lnc_chr15_12834	lncRNA_inter_chr15_12834	ncRNA_inter_chr15_12834	NA	INTERGENIC	UP	I	NA	TCPOBOP
+lnc_chr15_12835	lncRNA_inter_chr15_12835	ncRNA_inter_chr15_12835	NA	INTERGENIC	UP	I	NA	TCPOBOP
+lnc_chr15_12836	lncRNA_inter_chr15_12836	ncRNA_inter_chr15_12836	NA	INTERGENIC	UP	I	NA	TCPOBOP
+lnc_chr15_12957	lncRNA_as_chr15_12957	ncRNA_as_chr15_12957	NA	ANTISENSE	NA	F	NA	SB
+lnc_chr16_13225	lncRNA_inter_chr16_13225	ncRNA_inter_chr16_13225	NA	INTERGENIC	UP	I	NA	TCPOBOP
+lnc_chr16_13508	lncRNA_inter_chr16_13508	ncRNA_inter_chr16_13508,ncRNA_inter_chr16_13509	1810053B23RIK	INTERGENIC	UP	I	NA	TCPOBOP
+lnc_chr16_13510	lncRNA_inter_chr16_13510	ncRNA_inter_chr16_13510	NA	INTERGENIC	UP	I	NA	TCPOBOP
+lnc_chr16_13511	lncRNA_as_chr16_13511	ncRNA_as_chr16_13511	NA	ANTISENSE	UP	I	NA	TCPOBOP
+lnc_chr16_13512	lncRNA_as_chr16_13512	ncRNA_as_chr16_13512	NA	ANTISENSE	UP	I	NA	TCPOBOP
+lnc_chr17_13924	lncRNA_inter_chr17_13924	ncRNA_inter_chr17_13925	NA	INTERGENIC	NA	M	Male Class I	SB
+lnc_chr17_14130	lncRNA_inter_chr17_14130	ncRNA_inter_chr17_14130	NA	INTERGENIC	UP	I	NA	TCPOBOP
+lnc_chr18_14690	lncRNA_inter_chr18_14690	ncRNA_inter_chr18_14690	NA	INTERGENIC	UP	I	NA	TCPOBOP
+lnc_chr19_14746	lncRNA_inter_chr19_14746	ncRNA_inter_chr19_14746	NEAT1	INTERGENIC	DOWN	M	NA	NO
+lnc_chr19_14769	lncRNA_inter_chr19_14769	ncRNA_inter_chr19_14769	NA	INTERGENIC	NA	F	Female Class II	SB
+lnc_chr19_14770	lncRNA_inter_chr19_14770	ncRNA_inter_chr19_14770	NA	INTERGENIC	NA	F	Female Class II	SB
+lnc_chr19_14853	lncRNA_inter_chr19_14853	ncRNA_inter_chr19_14853	NA	INTERGENIC	UP	I	NA	TCPOBOP
+lnc_chr19_14873	lncRNA_inter_chr19_14873	ncRNA_inter_chr19_14873	NA	INTERGENIC	DOWN	M	Male Class I	BOTH
+lnc_chr19_14976	lncRNA_as_chr19_14976	ncRNA_as_chr19_14976	NA	ANTISENSE	DOWN	I	NA	TCPOBOP
+lnc_chr19_14977	lncRNA_as_chr19_14977	ncRNA_as_chr19_14977	1500017E21RIK	ANTISENSE	DOWN	I	NA	TCPOBOP
+lnc_chr19_15004	lncRNA_inter_chr19_15004	ncRNA_inter_chr19_15004	NA	INTERGENIC	UP	I	NA	TCPOBOP
+lnc_chr19_15006	lncRNA_intra_chr19_15006	ncRNA_intra_chr19_15009	NA	INTRAGENIC	NA	F	Female Class I	SB
+lnc_chr19_15011	lncRNA_intra_chr19_15011	ncRNA_intra_chr19_15011,ncRNA_intra_chr19_15014	NA	INTRAGENIC_SENSE	UP	I	NA	TCPOBOP
+lnc_chr19_15130	lncRNA_as_chr19_15130	ncRNA_as_chr19_15130	NA	ANTISENSE	DOWN	I	NA	TCPOBOP
+lnc_chr19_14855	lncRNA_inter_chr19_14855	ncRNA_inter_chr19_14855	NA	INTERGENIC	UP	I	NA	TCPOBOP
+lnc_chr19_15189	lncRNA_inter_chr19_15189	ncRNA_inter_chr19_15190	NA	INTERGENIC	UP	I	NA	TCPOBOP
+lnc_chr2_1097	lncRNA_inter_chr2_1097	ncRNA_inter_chr2_1098	NA	INTERGENIC	UP	I	NA	TCPOBOP
+lnc_chr2_1965	lncRNA_as_chr2_1965	ncRNA_as_chr2_1965	NA	ANTISENSE	NA	M	NA	SB
+lnc_chr2_2017	lncRNA_inter_chr2_2017	ncRNA_inter_chr2_2017	NA	INTERGENIC	UP	I	NA	TCPOBOP
+lnc_chr3_2128	lncRNA_inter_chr3_2128	ncRNA_inter_chr3_2137	NA	INTERGENIC	UP	I	NA	TCPOBOP
+lnc_chr3_2156	lncRNA_inter_chr3_2156	ncRNA_inter_chr3_2156	NA	INTERGENIC	NA	M	Male Class I	SB
+lnc_chr3_2504	lncRNA_inter_chr3_2504	ncRNA_inter_chr3_2504	NA	INTERGENIC	NA	M	Male Class I	SB
+lnc_chr3_2722	lncRNA_inter_chr3_2722	ncRNA_inter_chr3_2722	NA	INTERGENIC	UP	I	NA	TCPOBOP
+lnc_chr3_2915	lncRNA_inter_chr3_2915	ncRNA_inter_chr3_2915	NA	INTERGENIC	NA	F	Female Class I	SB
+lnc_chr3_2937	lncRNA_inter_chr3_2937	ncRNA_inter_chr3_2937	NA	INTERGENIC	UP	F	Female Class II	BOTH
+lnc_chr3_2988	lncRNA_inter_chr3_2988	ncRNA_inter_chr3_2988	NA	INTERGENIC	NA	M	Male Class I	SB
+lnc_chr4_3156	lncRNA_inter_chr4_3156	ncRNA_inter_chr4_3156	NA	INTERGENIC	DOWN	I	NA	TCPOBOP
+lnc_chr4_3282	lncRNA_inter_chr4_3282	ncRNA_inter_chr4_3282	NA	INTERGENIC	UP	I	NA	TCPOBOP
+lnc_chr4_3297	lncRNA_as_chr4_3297	ncRNA_as_chr4_3297	NA	ANTISENSE	NA	M	Male Class I	SB
+lnc_chr4_3300	lncRNA_as_chr4_3300	ncRNA_as_chr4_3300	NA	ANTISENSE	NA	M	NA	SB
+lnc_chr4_3425	lncRNA_inter_chr4_3425	ncRNA_inter_chr4_3425	NA	INTERGENIC	UP	I	NA	TCPOBOP
+lnc_chr4_3468	lncRNA_inter_chr4_3468	ncRNA_inter_chr4_3468	GM12718	INTERGENIC	NA	M	Male Class I	SB
+lnc_chr4_3779	lncRNA_inter_chr4_3779	ncRNA_inter_chr4_3779	NA	INTERGENIC	UP	I	NA	TCPOBOP
+lnc_chr5_4115	lncRNA_inter_chr5_4115	ncRNA_inter_chr5_4115	NA	INTERGENIC	NA	F	Female Class I	SB
+lnc_chr5_4315	lncRNA_inter_chr5_4315	ncRNA_inter_chr5_4316	NA	INTERGENIC	UP	I	NA	TCPOBOP
+lnc_chr5_4338	lncRNA_inter_chr5_4338	ncRNA_inter_chr5_4338	NA	INTERGENIC	UP	I	NA	TCPOBOP
+lnc_chr5_4499	lncRNA_inter_chr5_4499	ncRNA_inter_chr5_4499	NA	INTERGENIC	UP	I	NA	TCPOBOP
+lnc_chr5_4577	lncRNA_inter_chr5_4577	ncRNA_inter_chr5_4577	AW549542	INTERGENIC	DOWN	I	NA	TCPOBOP
+lnc_chr5_4655	lncRNA_as_chr5_4655	ncRNA_as_chr5_4655	NA	ANTISENSE	UP	I	NA	TCPOBOP
+lnc_chr5_4694	lncRNA_as_chr5_4694	ncRNA_as_chr5_4694	NA	ANTISENSE	DOWN	I	NA	TCPOBOP
+lnc_chr5_4726	lncRNA_intra_chr5_4726	ncRNA_intra_chr5_4728,ncRNA_intra_chr5_4734,ncRNA_intra_chr5_4735,ncRNA_intra_chr5_4736,ncRNA_intra_chr5_4738	NA	INTRAGENIC	UP	F	Female Class I/Female Class II	BOTH
+lnc_chr5_4727	lncRNA_as_chr5_4727	ncRNA_as_chr5_4731,ncRNA_as_chr5_4745	NA	ANTISENSE	NA	F	Female Class I	SB
+lnc_chr6_5131	lncRNA_inter_chr6_5131	ncRNA_inter_chr6_5131	NA	INTERGENIC	UP	I	NA	TCPOBOP
+lnc_chr6_5137	lncRNA_inter_chr6_5137	ncRNA_inter_chr6_5137	NA	INTERGENIC	NA	F	Female Class I	SB
+lnc_chr6_5138	lncRNA_inter_chr6_5138	ncRNA_inter_chr6_5138	NA	INTERGENIC	NA	F	Female Class I	SB
+lnc_chr6_5248	lncRNA_inter_chr6_5248	ncRNA_inter_chr6_5248	NA	INTERGENIC	UP	I	NA	TCPOBOP
+lnc_chr6_5253	lncRNA_inter_chr6_5253	ncRNA_inter_chr6_5253	NA	INTERGENIC	NA	F	Female Class I	SB
+lnc_chr6_5335	lncRNA_as_chr6_5335	ncRNA_as_chr6_5335	NA	ANTISENSE	UP	I	NA	TCPOBOP
+lnc_chr6_5336	lncRNA_as_chr6_5336	ncRNA_as_chr6_5336	NA	ANTISENSE	UP	I	NA	TCPOBOP
+lnc_chr6_5551	lncRNA_inter_chr6_5551	ncRNA_inter_chr6_5551	NA	INTERGENIC	DOWN	I	NA	TCPOBOP
+lnc_chr6_5595	lncRNA_inter_chr6_5595	ncRNA_inter_chr6_5595	NA	INTERGENIC	UP	I	NA	TCPOBOP
+lnc_chr6_5772	lncRNA_inter_chr6_5772	ncRNA_inter_chr6_5772	NA	INTERGENIC	NA	F	NA	SB
+lnc_chr6_5824	lncRNA_inter_chr6_5824	ncRNA_inter_chr6_5824	NA	INTERGENIC	UP	I	NA	TCPOBOP
+lnc_chr7_5920	lncRNA_intra_chr7_5920	ncRNA_intra_chr7_5920	NA	INTRAGENIC_SENSE	UP	I	NA	TCPOBOP
+lnc_chr7_5998	lncRNA_inter_chr7_5998	ncRNA_inter_chr7_5998	NA	INTERGENIC	UP	I	NA	TCPOBOP
+lnc_chr7_5999	lncRNA_as_chr7_5999	ncRNA_as_chr7_5999	NA	ANTISENSE	UP	F	Female Class II	BOTH
+lnc_chr7_6007	lncRNA_as_chr7_6007	ncRNA_as_chr7_6007	NA	ANTISENSE	NA	F	Female Class II	SB
+lnc_chr7_6065	lncRNA_as_chr7_6065	ncRNA_as_chr7_6065	NA	ANTISENSE	DOWN	I	NA	TCPOBOP
+lnc_chr7_6302	lncRNA_as_chr7_6302	ncRNA_as_chr7_6302	NA	ANTISENSE	UP	I	NA	TCPOBOP
+lnc_chr7_6522	lncRNA_inter_chr7_6522	ncRNA_inter_chr7_6522,ncRNA_inter_chr7_6523,ncRNA_inter_chr7_6524	4933406I18RIK	INTERGENIC	UP	I	NA	TCPOBOP
+lnc_chr8_6894	lncRNA_inter_chr8_6894	ncRNA_inter_chr8_6896	NA	INTERGENIC	UP	I	NA	TCPOBOP
+lnc_chr8_6990	lncRNA_inter_chr8_6990	ncRNA_inter_chr8_6990	NA	INTERGENIC	NA	M	NA	SB
+lnc_chr8_7308	lncRNA_intra_chr8_7308	ncRNA_intra_chr8_7313,ncRNA_intra_chr8_7314,ncRNA_intra_chr8_7319,ncRNA_intra_chr8_7321,ncRNA_intra_chr8_7322,ncRNA_intra_chr8_7323	NA	INTRAGENIC_SENSE	UP	I	NA	TCPOBOP
+lnc_chr8_7359	lncRNA_as_chr8_7359	ncRNA_as_chr8_7359	NA	ANTISENSE	UP	I	NA	TCPOBOP
+lnc_chr8_7423	lncRNA_inter_chr8_7423	ncRNA_inter_chr8_7423	NA	INTERGENIC	NA	M	Male Class I	SB
+lnc_chr8_7605	lncRNA_inter_chr8_7605	ncRNA_inter_chr8_7605	NA	INTERGENIC	UP	I	NA	TCPOBOP
+lnc_chr8_7606	lncRNA_inter_chr8_7606	ncRNA_inter_chr8_7606	NA	INTERGENIC	UP	I	NA	TCPOBOP
+lnc_chr9_7767	lncRNA_as_chr9_7767	ncRNA_as_chr9_7767	NA	ANTISENSE	DOWN	I	NA	TCPOBOP
+lnc_chr9_7809	lncRNA_inter_chr9_7809	ncRNA_inter_chr9_7809	NA	INTERGENIC	DOWN	I	NA	TCPOBOP
+lnc_chr9_8000	lncRNA_inter_chr9_8000	ncRNA_inter_chr9_8000	NA	INTERGENIC	DOWN	I	NA	TCPOBOP
+lnc_chr9_8301	lncRNA_inter_chr9_8301	ncRNA_inter_chr9_8301,ncRNA_inter_chr9_8302	NA	INTERGENIC	UP	I	NA	TCPOBOP
+lnc_chr9_8401	lncRNA_as_chr9_8401	ncRNA_as_chr9_8401	NA	ANTISENSE	UP	I	NA	TCPOBOP
+lnc_chrX_15394	lncRNA_inter_chrX_15394	ncRNA_inter_chrX_15394	XIST	INTERGENIC	NA	F	NA	SB

@@ -1,0 +1,8 @@
+#### Input Data #####
+# Region Data File: example_regions.bed
+# Lnc Data File: 00_REF/09_RefSeqLncRNA76k_longestIsoform_geneOnly_mm10.bed
+#### Parameters #####
+# Adjusted TFO Threshold (adj1; TFO_ADJUSTED_VALUE): 2.01
+# Minimum TFO Count (TFO_COUNT): 2
+# Minimum number of DBR in a DBD (REGION_MIN): 2
+# Stored Diagnostic Plots (DIAGNOSTIC_FIGURES): FALSE
