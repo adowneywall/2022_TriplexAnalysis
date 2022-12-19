@@ -15,17 +15,19 @@
 ## Libraries and helper functions
 library(tidyverse)
 args = commandArgs(trailingOnly=TRUE)
-#DIR <- paste0(args[1])
-DIR <- '/projectnb/wax-dk/alan/2022_TriplexAnalysis'
+if(length(args)==0){
+  DIR <- '/projectnb/wax-dk/alan/2022_TriplexAnalysis'
+  param <- read_tsv(paste0(DIR,'/data/parameters.txt'))[1,]
+}else{
+  DIR <- paste0(args[1])
+  param <- read_tsv(paste0(DIR,'/data/parameters.txt'))[args[2],]
+}
 
 source(paste0(DIR,"/src/helpers/functions.R"))
 
 ####################################################################################
 ################################# User input #######################################
 ####################################################################################
-
-param <- read_tsv(paste0(DIR,'/data/parameters.txt'))[1,]
-#param <- read_tsv(paste0(DIR,'/data/parameters.txt'))[args[2],]
 
 # Change this to the appropriate data directory where the triplex output files are located
 setwd(paste0(DIR,"/output/",param$Output))

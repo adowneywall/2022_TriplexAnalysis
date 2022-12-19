@@ -19,7 +19,17 @@
 ## Libraries and helper functions
 library(tidyverse)
 library(cowplot)
-source("/projectnb/wax-dk/alan/2022_TDFAnalysislnRNA/src/helpers/functions.R")
+library(ggplot2)
+library(openxlsx)
+args = commandArgs(trailingOnly=TRUE)
+if(length(args)==0){
+  DIR <- '/projectnb/wax-dk/alan/2022_TriplexAnalysis'
+  param <- read_tsv(paste0(DIR,'/data/parameters.txt'))[1,]
+}else{
+  DIR <- paste0(args[1])
+  param <- read_tsv(paste0(DIR,'/data/parameters.txt'))[args[2],]
+}
+source(paste0(DIR,"/src/helpers/functions.R"))
 
 # Set main directory path and project folder name
 dir <- "/projectnb/wax-dk/alan/2022_TDFAnalysislnRNA/"
