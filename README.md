@@ -31,3 +31,11 @@ These include:
 
 #### Step 2B - Setting up parameter file for DBR and DBD determination
 
+### Step 3 - Run binding region / domain identification script ('')
+
+### Step 4 (optional) - Run statistical analysis scripts
+
+#### Step 4A - Fisher Test
+
+#### Step 4B - Mann-Whitney U Test
+
